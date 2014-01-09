@@ -1,0 +1,35 @@
+/* This is a simple CSS sheet. */
+body{ /* this is the background colour of the whole game. instead of the hex colour code you can type in a colour name like green or red */
+	background-color:#2d2d34;}
+
+/* this is a cool way to make your links flash. Read more on this at w3school */
+
+a:link {Color:#999;}    /* unvisited link */
+a:visited {	color:#999;} /* visited link */
+a:hover {color:#F00;}   /* mouse over link */
+a:active {color:#FFF;}  /* selected link */
+
+.table { 
+	border: #000000 1px solid;
+	background-color: #363636;
+	;
+}
+
+.cell {
+	color: #FFFFFF;
+	padding: 3px;
+	background-color:#1C1C1C
+}
+
+.header {
+	padding: 0px;
+	padding-left: 2px;
+	color: #FFFFFF;
+	background: #3A0D07;
+	font-family: verdana;
+	font-size: 10px;
+	line-height: 18px;
+	text-align: left;
+	border-bottom: 2px solid;
+	border-color: #000000;
+}
